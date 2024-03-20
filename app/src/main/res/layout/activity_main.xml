@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:text="RECONOCIMIENTO DE BANDERAS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <Button
+        android:id="@+id/btGallery"
+        android:layout_width="121dp"
+        android:layout_height="56dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="48dp"
+        android:onClick="abrirGaleria"
+        android:text="Galería"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view" />
+
+    <Button
+        android:id="@+id/btCamera"
+        android:layout_width="121dp"
+        android:layout_height="56dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:onClick="abrirCamara"
+        android:text="Cámara"
+        app:layout_constraintEnd_toStartOf="@+id/bttmodeloflores"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toEndOf="@+id/btGallery"
+        app:layout_constraintTop_toBottomOf="@+id/image_view" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="390dp"
+        android:layout_height="364dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+        app:srcCompat="@drawable/uteq" />
+
+    <Button
+        android:id="@+id/bttmodeloflores"
+        android:layout_width="121dp"
+        android:layout_height="56dp"
+        android:onClick="PersonalizedModel"
+        android:text="Modelo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
