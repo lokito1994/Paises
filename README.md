@@ -1,0 +1,5 @@
+![image](https://github.com/lokito1994/Paises/assets/151756476/c1c3f3b7-f56e-4272-86b6-d0c419d2ca2e)
+![image](https://github.com/lokito1994/Paises/assets/151756476/a8c92582-0dcb-4624-b60b-828c971bcd46)
+![image](https://github.com/lokito1994/Paises/assets/151756476/66d3a12b-8a38-4672-8626-be7835f497d0)
+![image](https://github.com/lokito1994/Paises/assets/151756476/657468dd-ed64-4c0f-90b9-0bf9fd2415f1)
+![image](https://github.com/lokito1994/Paises/assets/151756476/51a3a309-89e7-4afd-b89c-110a77a01a03)
